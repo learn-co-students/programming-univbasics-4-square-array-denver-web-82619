@@ -5,9 +5,9 @@ def square_array(array)
   array_squared = []
   
   while count < array.length do 
-    binding.pry 
-    #array_squared.push(array[count]**2)
-    count++
+    #binding.pry 
+    array_squared.push(array[count]**2)
+    count += 1 
   end
   
   return array_squared
